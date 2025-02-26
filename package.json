@@ -5,10 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
-    "build": "echo 'No build step needed'",
-    "vercel-build": "echo 'No build step needed'",
-    "test": "jest"
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
