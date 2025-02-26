@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "build": "mkdir -p dist && cp -r src dist",
+    "build": "echo 'No build step needed'",
+    "vercel-build": "echo 'No build step needed'",
     "test": "jest"
   },
   "dependencies": {
